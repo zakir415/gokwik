@@ -157,15 +157,18 @@ input {
   color: white;
   font-weight: bold;
   transition: opacity 0.2s ease;
+  display: block;
+  row-gap: 10px;
 }
 
 .add-to-cart {
   background-color: green;
+  margin-bottom: 10px;
 }
 
 .buy-now {
   background-color: orange;
-  margin-left: 10px;
+  
 }
 
 .add-to-cart:hover,
